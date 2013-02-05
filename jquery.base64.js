@@ -1,6 +1,6 @@
 /**
  * jQuery Plugin - base64 codec
- * ----
+ * @lisence MIT License https://github.com/yatt/jquery.base64/license.txt
  * @author yatt/brainfs http://d.hatena.ne.jp/yatt http://twitter.com/brainfs
  * @version 0.0.1
  * @info
@@ -130,12 +130,6 @@ var base64 = new function()
 //    var unpackChar  = function(_x){ return window[utfLibName].unpackChar(_x) };
 }
     
-
-
-
-
-
-
 
     /* /_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
     charset = shift_jis
