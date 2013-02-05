@@ -1,6 +1,6 @@
 /**
  * jQuery Plugin - base64 codec
- * @lisence MIT License https://github.com/yatt/jquery.base64/license.txt
+ * @lisence MIT License https://github.com/yatt/jquery.base64/blob/master/license.txt
  * @author yatt/brainfs http://d.hatena.ne.jp/yatt http://twitter.com/brainfs
  * @version 0.0.1
  * @info
