@@ -331,4 +331,32 @@ var utf = new function()
         }
     })
     
+    //
+    // override jQuery.ajax:
+    // if ajax 'dataType' option value ended by ':b64', then
+    // decode base64 string automatically
+    //
+    $.ajax = (function(ajax){
+        return function(option){
+            var flg = 0
+            
+            // dataType string ended by ':b64' or not?
+            if (option.dataType && option.dataType.match(/:b64/)){
+                option.dataType = option.dataType.replace(':b64', '')
+                flg = 1
+            }
+            
+            if (flg){
+                option.success = (function(callback){
+                    return function(data, status, xhr){
+                        data = $.base64.decode(data)
+                        callback(data, status, xhr)
+                    }
+                })(option.success || function(data, status, xhr){})
+            }
+            
+            return ajax.apply(this, arguments)
+        }
+    })($.ajax)
+
 })(jQuery)
