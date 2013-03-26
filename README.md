@@ -18,6 +18,11 @@ $.get('test2.txt', function(data){
     // variable data is already decoded as base64
     $('#target').html(data)
 }, 'text:b64')
+
+$.get('test.html.txt', function(data){
+    $('#target').html(data)
+    // variable data is already decoded as base64
+}, 'html:b64')
 ```
 
 ### Dependencies ###
