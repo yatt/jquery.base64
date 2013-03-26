@@ -19,3 +19,7 @@ $.get('test2.txt', function(data){
     $('#target').html(data)
 }, 'text:b64')
 ```
+
+### Dependencies ###
+
+Nothing without jQuery.base64
