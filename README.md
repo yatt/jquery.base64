@@ -22,4 +22,4 @@ $.get('test2.txt', function(data){
 
 ### Dependencies ###
 
-Nothing without jQuery.base64
+Nothing without jQuery
