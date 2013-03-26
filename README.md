@@ -15,13 +15,12 @@ $('#dec').html($.base64.decode($.base64.encode(text)))
 
 // ajax integrated decoding
 $.get('test2.txt', function(data){
-    // variable data is already decoded as base64
+    // variable data is already decoded to plain text
     $('#target').html(data)
 }, 'text:b64')
 
 $.get('test.html.txt', function(data){
     $('#target').html(data)
-    // variable data is already decoded as base64
 }, 'html:b64')
 ```
 
