@@ -17,7 +17,7 @@
     "jquery", "base64", "javascript"
   ],
   "author": "yatt",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/tamakiii/jquery.base64/issues"
   },
