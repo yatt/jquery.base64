@@ -5,8 +5,19 @@
 - base64 codec function
 - ajax integrated base64 decoding functionality
 
-### Sample ###
+## Usage ##
 
+### In Browser ###
+~~~html
+<script src="jquery.base64.js"></script>
+~~~
+
+### npm ###
+~~~sh
+npm install --save tamakiii/jquery.base64#v0.1.0
+~~~
+
+## Sample ##
 
 ```javascript
 // encode/decode
