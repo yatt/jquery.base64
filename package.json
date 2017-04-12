@@ -1,0 +1,25 @@
+{
+  "name": "jquery.base64",
+  "version": "0.0.1",
+  "description": "jquery plugin supports base64 codec and ajax integrated base64 decoding functionality",
+  "main": "jquery.base64.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yatt/jquery.base64.git"
+  },
+  "keywords": [
+    "jquery", "base64", "javascript"
+  ],
+  "author": "yatt",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yatt/jquery.base64/issues"
+  },
+  "homepage": "https://github.com/yatt/jquery.base64#readme"
+}
