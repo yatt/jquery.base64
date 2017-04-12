@@ -1,6 +1,6 @@
 {
   "name": "jquery.base64",
-  "version": "0.1.0",
+  "version": "0.0.1",
   "description": "jquery plugin supports base64 codec and ajax integrated base64 decoding functionality",
   "main": "jquery.base64.js",
   "directories": {
