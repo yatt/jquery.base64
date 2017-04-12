@@ -14,7 +14,7 @@
 
 ### npm ###
 ~~~sh
-npm install --save tamakiii/jquery.base64#v0.1.0
+npm install --save yatt/jquery.base64#v0.1.0
 ~~~
 
 ## Sample ##
